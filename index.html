@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SaintStyle®</title>
+<link rel="icon" href="logo.png">
+<style>
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Arial', sans-serif; }
+
+body {
+  background: #0b0b0b;
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 30px;
+  background: #000;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+header img {
+  height: 42px;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #000, #0b0b0b);
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+
+.hero a {
+  background: #25D366;
+  color: black;
+  padding: 14px 26px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Section */
+.section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section h3 {
+  margin-bottom: 22px;
+  font-size: 26px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* Product Card */
+.card {
+  background: #111;
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.card h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  background: #25D366;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Floating WhatsApp */
+.whatsapp {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  background: #25D366;
+  color: black;
+  padding: 14px 18px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 22px;
+  border-top: 1px solid #1a1a1a;
+  opacity: 0.7;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="SaintStyle Logo">
+  <h1>SaintStyle®</h1>
+</header>
+
+<section class="hero">
+  <h2>Sneakers & Fashion Premium</h2>
+  <p>Luxury streetwear curated — Sneakers, Apparel & Bags</p>
+  <a href="https://wa.me/19544798374" target="_blank">Contact on WhatsApp</a>
+</section>
+
+<!-- Sneakers -->
+<section class="section">
+  <h3>Sneakers Collection</h3>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.stockx.com/images/Nike-Dunk-Low-White-Black-2021.jpg" />
+      <h4>Nike Dunk Low</h4>
+      <a href="https://wa.me/19544798374">Ask Availability</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.stockx.com/images/Air-Jordan-4-Off-White-Sail.jpg" />
+      <h4>Off-White Jordan 4</h4>
+      <a href="https://wa.me/19544798374">Ask Availability</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Apparel -->
+<section class="section">
+  <h3>Apparel Collection</h3>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.stockx.com/images/Supreme-Box-Logo-Hoodie.jpg" />
+      <h4>Supreme Hoodie</h4>
+      <a href="https://wa.me/19544798374">Ask Availability</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Bags -->
+<section class="section">
+  <h3>Bags & Luxury Items</h3>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.stockx.com/images/Louis-Vuitton-Bag.jpg" />
+      <h4>Louis Vuitton Bag</h4>
+      <a href="https://wa.me/19544798374">Ask Availability</a>
+    </div>
+
+  </div>
+</section>
+
+<a class="whatsapp" href="https://wa.me/19544798374">WhatsApp</a>
+
+<footer>
+  SaintStyle® — Premium Streetwear
+</footer>
+
+</body>
+</html>
